@@ -4,8 +4,8 @@ It uses the "Black Eye" UserInterfaceSetting and a matching colorscheme I config
 I have not found anywhere it looks strange or where you cant read the text. 
 I hope someone finds good use for it :)
 
-
-- [Showcase](#Showcase)
+- [How to Install?](#installation)
+- [Gallery](#gallery)
 
 
 ## Installation
@@ -15,29 +15,7 @@ I hope someone finds good use for it :)
 
 Now you got a Dark theme for JD2!
 
-
-h
-h
-h
-h
-h
-h
-h
-
-h
-h
-h
-h
-
-h
-h
-h
-h
-h
-h
-h
-
-## Showcase:
+## Gallery:
 
 The main Download tab
 ![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/Download.JPG?raw=true "Title")
