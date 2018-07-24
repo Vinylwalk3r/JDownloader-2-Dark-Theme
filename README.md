@@ -4,14 +4,14 @@ It uses the "Black Eye" UserInterfaceSetting and a matching colorscheme I config
 I have not found anywhere it looks strange or where you cant read the text. 
 I hope someone finds good use for it :)
 
-##Installation
+## Installation
 1. Go to "File -> Backup -> Restore Settings"
 2. Choose the jd2backup file you just downloaded
 3. JD2 will restart
 
 Now you got a Dark theme for JD2!
 
-##Showcase:
+## Showcase:
 
 The main Download tab
 ![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/Download.JPG?raw=true "Title")
@@ -21,5 +21,7 @@ The Linkgrabber tab
 
 And finaly, the Settings
 ![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/SettingsTab.JPG?raw=true "Title")
+
+- [Showcase](#Showcase)
 
 
