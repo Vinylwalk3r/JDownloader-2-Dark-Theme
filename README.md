@@ -9,9 +9,16 @@ I hope someone finds good use for it :)
 
 
 ## Installation
-1. Go to "File -> Backup -> Restore Settings"
-2. Choose the jd2backup file you just downloaded
-3. JD2 will restart
+1. Go to `Settings -> Settings` and select the `Advanced Settings` category from the list on the left.
+2. Enter `LookAndFeelTheme` into the search field.
+3. Only the setting `GraphicalUserInterfaceSettings: Look and Feel Theme` should remain. Set its value to `BLACK_EYE`.
+4. Go to `File -> Backup -> Backup all settings` and make a backup of your JDownloader settings.
+5. Make a copy of the backup, because we are going to modify it in the next step.
+6. Open the backup with the zip archiver of your choice (e.g. [7-Zip](https://www.7-zip.org/)).
+7. Copy the content of the [config](config/) folder into the opened backup. If asked, confirm overwriting exisiting files.
+8. Save the modified backup, if your archiver does not to that automatically.
+9. Go to `File -> Backup -> Restore Settings` and choose the modified backup.
+10. JD2 will restart now.
 
 Now you got a Dark theme for JD2!
 
