@@ -7,8 +7,8 @@ I have not found anywhere it looks strange or where you cant read the text. **Ed
 I hope someone finds good use for it :)
 
 - [Versions](#versions)
-- [Merging_with_Existing_Settings](#merging settings)
-- [Clean_Installation](#clean installation)
+- [Merging with Existing Settings](#mergingsettings)
+- [Clean Installation](#cleaninstall)
 - [Gallery](#gallery)
 
 ## Versions
@@ -16,7 +16,7 @@ I hope someone finds good use for it :)
 * JDownloaderDarkCustomToolbars - Same as DarkOnly, only adding a some more organized toolbars (I think they are atleast, but customize away to your prefs!)
 * JDownloaderDefault - What it says, all default values, as if a new install
 
-## Merging Settings
+## MergingSettings
 (SOOO many thanks to [Georgeto] for this alternative method! Awesome work man!)
 1. Go to `Settings -> Settings` and select the `Advanced Settings` category from the list on the left.
 2. Enter `LookAndFeelTheme` into the search field.
@@ -29,7 +29,7 @@ I hope someone finds good use for it :)
 9. Go to `File -> Backup -> Restore Settings` and choose the modified backup.
 10. JD2 will restart now.
 
-## Clean Installation
+## CleanInstall
 1. Go to "File -> Backup -> Restore Settings" !!!This step WILL clear ALL custom settings you may have, so backup those!!! (Thanks to  [Chya66](https://www.reddit.com/user/Chya66 "Chya66's Reddit") for pointing this out)
 2. Choose the .jd2backup file you just downloaded
 3. JD2 will restart
