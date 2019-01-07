@@ -7,7 +7,7 @@ I have not found anywhere it looks strange or where you cant read the text. **Ed
 I hope someone finds good use for it :)
 
 - [Merging with Existing Settings](#mergingsettings)
-- [Clean Installation](#cleaninstall)
+- [Custom Themes](#customthemes)
 - [Gallery](#gallery)
 
 ## MergingSettings
@@ -25,6 +25,8 @@ This method will keep your current settings and add dark theme ontop
 10. JD2 will restart now.
 
 Now you got a Dark theme for JD2!
+
+## CustomThemes
 
 If you want a custom theme (edited BlackEye for example)
 1. Go to `pathtoyourjdownloaderinstall\libs\laf`
