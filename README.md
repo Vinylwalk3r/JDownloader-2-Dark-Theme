@@ -17,6 +17,7 @@ I hope someone finds good use for it :)
 * JDownloaderDefault - What it says, all default values, as if a new install
 
 ## MergingSettings
+This method will keep your current settings and add dark theme ontop
 (SOOO many thanks to [Georgeto](https://github.com/Georgeto) for this alternative method! Awesome work man!)
 1. Go to `Settings -> Settings` and select the `Advanced Settings` category from the list on the left.
 2. Enter `LookAndFeelTheme` into the search field.
@@ -30,7 +31,8 @@ I hope someone finds good use for it :)
 10. JD2 will restart now.
 
 ## CleanInstall
-1. Go to `File -> Backup -> Restore Settings` !!!This step WILL clear ALL custom settings you may have, so backup those!!! (Thanks to  [Chya66](https://www.reddit.com/user/Chya66 "Chya66's Reddit") for pointing this out)
+!!!This step WILL clear ALL custom settings you may have, so backup those!!! (Thanks to  [Chya66](https://www.reddit.com/user/Chya66 "Chya66's Reddit") for pointing this out)
+1. Go to `File -> Backup -> Restore Settings` 
 2. Choose the `.jd2backup` file you just downloaded
 3. JD2 will restart
 
