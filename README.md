@@ -6,15 +6,9 @@ I have not found anywhere it looks strange or where you cant read the text. **Ed
 
 I hope someone finds good use for it :)
 
-- [Versions](#versions)
 - [Merging with Existing Settings](#mergingsettings)
 - [Clean Installation](#cleaninstall)
 - [Gallery](#gallery)
-
-## Versions
-* JDownloaderDarkOnly - Contains Only the dark theme. No other custom settings included
-* JDownloaderDarkCustomToolbars - Same as DarkOnly, only adding a some more organized toolbars (I think they are atleast, but customize away to your prefs!)
-* JDownloaderDefault - What it says, all default values, as if a new install
 
 ## MergingSettings
 This method will keep your current settings and add dark theme ontop
@@ -30,6 +24,8 @@ This method will keep your current settings and add dark theme ontop
 9. Go to `File -> Backup -> Restore Settings` and choose the modified backup.
 10. JD2 will restart now.
 
+Now you got a Dark theme for JD2!
+
 If you want a custom theme (edited BlackEye for example)
 1. Go to `pathtoyourjdownloaderinstall\libs\laf`
 2. In this example, we rename `syntheticaBlackEye.jar` to `syntheticaBlackEye.jar.bak` (you could edit any theme you want)
@@ -37,14 +33,6 @@ If you want a custom theme (edited BlackEye for example)
 4. Restart JD2
 
 Strange thing I found, if a pasted a new theme.jar file here, with its own name, JD2 could not find it in its list of themes. Anybody know where the file containing the theme list is?
-
-## CleanInstall !!Deprecated!!
-!!!This step WILL clear ALL custom settings you may have, so backup those!!! (Thanks to  [Chya66](https://www.reddit.com/user/Chya66 "Chya66's Reddit") for pointing this out)
-1. Go to `File -> Backup -> Restore Settings` 
-2. Choose the `.jd2backup` file you just downloaded
-3. JD2 will restart
-
-Now you got a Dark theme for JD2!
 
 ## Gallery:
 (Some custom settings can be seen here. They are NOT included in the backup files!)
