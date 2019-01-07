@@ -30,8 +30,8 @@ I hope someone finds good use for it :)
 10. JD2 will restart now.
 
 ## CleanInstall
-1. Go to "File -> Backup -> Restore Settings" !!!This step WILL clear ALL custom settings you may have, so backup those!!! (Thanks to  [Chya66](https://www.reddit.com/user/Chya66 "Chya66's Reddit") for pointing this out)
-2. Choose the .jd2backup file you just downloaded
+1. Go to `File -> Backup -> Restore Settings` !!!This step WILL clear ALL custom settings you may have, so backup those!!! (Thanks to  [Chya66](https://www.reddit.com/user/Chya66 "Chya66's Reddit") for pointing this out)
+2. Choose the `.jd2backup` file you just downloaded
 3. JD2 will restart
 
 Now you got a Dark theme for JD2!
