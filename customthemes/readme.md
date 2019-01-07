@@ -1,1 +1,1 @@
-hej
+The SyntheticaBlackEye.jar file is a complete theme file with my progressbar inserted. If you want to make a homemade custom theme, or change an existing and have my green progress bar, then download the greenprograssbar.zip and use the .png files inside.
