@@ -17,7 +17,7 @@ I hope someone finds good use for it :)
 * JDownloaderDefault - What it says, all default values, as if a new install
 
 ## MergingSettings
-(SOOO many thanks to [Georgeto] for this alternative method! Awesome work man!)
+(SOOO many thanks to [Georgeto](https://github.com/Georgeto) for this alternative method! Awesome work man!)
 1. Go to `Settings -> Settings` and select the `Advanced Settings` category from the list on the left.
 2. Enter `LookAndFeelTheme` into the search field.
 3. Only the setting `GraphicalUserInterfaceSettings: Look and Feel Theme` should remain. Set its value to `BLACK_EYE`.
