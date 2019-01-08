@@ -40,18 +40,21 @@ Strange thing I found, if a pasted a new theme.jar file here, with its own name,
 (Some custom settings can be seen here. They are NOT included in the backup files!)
 
 The main Download tab
+
 ![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/Download.JPG?)
 
 The Linkgrabber tab
+
 ![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/Linkgrabber.JPG?)
 
 Settings page
+
 ![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/SettingsTab.JPG?)
 
 Custom green Progress Bar
 
 ![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/GreenProgressBar.JPG?)
-
+##
 
 
 
