@@ -6,11 +6,11 @@ I have not found anywhere it looks strange or where you cant read the text. **Ed
 
 I hope someone finds good use for it :)
 
-- [Merging with Existing Settings](#mergingsettings)
+- [Installation](#installation)
 - [Custom Themes](#customthemes)
 - [Gallery](#gallery)
 
-## MergingSettings
+## Installation
 This method will keep your current settings and add dark theme ontop
 (SOOO many thanks to [Georgeto](https://github.com/Georgeto) for this alternative method! Awesome work man!)
 1. Go to `Settings -> Settings` and select the `Advanced Settings` category from the list on the left.
