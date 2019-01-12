@@ -51,11 +51,11 @@ Settings page
 
 ![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/SettingsTab.JPG?)
 
-Custom green Progress Bar
+Custom Green Progress Bar
 
 ![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/GreenProgressBar.JPG?)
 
-# Reorganised Toolbars
+### Reorganised Toolbars
 
 Downloads
 
