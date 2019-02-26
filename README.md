@@ -32,7 +32,7 @@ Now you got a Dark theme for JD2!
 If you want a custom theme (our edited BlackEye for example)
 1. Go to `pathtoyourjdownloaderinstall\libs\laf`
 2. In this example, we rename `syntheticaBlackEye.jar` to `syntheticaBlackEye.jar.bak` (you could edit any theme you want, but you have to use the exact name of the theme you replace. This time, I edited the Blackeye)
-3. Paste our edited `[syntheticaBlackEye.jar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/syntheticaBlackEye.jar)` here
+3. Paste our edited [syntheticaBlackEye.jar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/syntheticaBlackEye.jar) here
 4. Restart JD2
 
 Strange thing I found, if a pasted a new theme.jar file here, with its own name, JD2 could not find it in its list of themes. Anybody know where the file containing the theme list is?
