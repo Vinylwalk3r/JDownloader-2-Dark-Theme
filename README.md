@@ -1,16 +1,18 @@
 # JDownloader 2 Dark Theme
 After seeing so many requests for a dark theme, I configured my own. 
-It uses the "Black Eye" UserInterfaceSetting and a matching colorscheme I configured for the rest of the window. 
+It uses the "Black Eye" UserInterfaceSetting and a matching colorscheme I configured for the rest of the window.
 
 I have not found anywhere it looks strange or where you cant read the text. **Edit The Menu Customizer has some troubles with text in selected fields not being readable...
 
 I hope someone finds good use for it :)
 
-- [Installation](#installation)
-- [Custom Themes](#customthemes)
+- [Installing](#installing)
+- [Assets List](#assets_list)
 - [Gallery](#gallery)
 
-## Installation
+## Installing
+
+### Dark theme
 This method will keep your current settings and add dark theme ontop
 (SOOO many thanks to [Georgeto](https://github.com/Georgeto) for this alternative method! Awesome work man!)
 1. Go to `Settings -> Settings` and select the `Advanced Settings` category from the list on the left.
@@ -26,45 +28,54 @@ This method will keep your current settings and add dark theme ontop
 
 Now you got a Dark theme for JD2!
 
-## CustomThemes
-
-If you want a custom theme (edited BlackEye for example)
+### Custom Themes
+If you want a custom theme (our edited BlackEye for example)
 1. Go to `pathtoyourjdownloaderinstall\libs\laf`
-2. In this example, we rename `syntheticaBlackEye.jar` to `syntheticaBlackEye.jar.bak` (you could edit any theme you want)
+2. In this example, we rename `syntheticaBlackEye.jar` to `syntheticaBlackEye.jar.bak` (you could edit any theme you want, but you have to use the exact name of the theme you replace. This time, I edited the Blackeye)
 3. Paste our edited `syntheticaBlackEye.jar` here
 4. Restart JD2
 
 Strange thing I found, if a pasted a new theme.jar file here, with its own name, JD2 could not find it in its list of themes. Anybody know where the file containing the theme list is?
 
+## Assets List
+[*] [Main Dark theme conf](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf)
+[*] [Reorganized Toolbars](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/menus_v2)
+[*] [Green Download Progress bar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/Jdownloader-2-Dark-Theme/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images)
+[*] (soon to be released) "Flat" style buttons
+
 ## Gallery:
-(Some custom settings can be seen here. They are NOT included in the backup files!)
 
-The main Download tab
+### UI
 
-![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/Download.JPG?)
+Download tab
 
-The Linkgrabber tab
+![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/Download.JPG?)
 
-![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/Linkgrabber.JPG?)
+Linkgrabber tab
+
+![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/Linkgrabber.JPG?)
 
 Settings page
 
-![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/SettingsTab.JPG?)
+![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/SettingsTab.JPG?)
 
-Custom Green Progress Bar
+### Mac
 
-![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/GreenProgressBar.JPG?)
+![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/OSXDownload.PNG?)
+(Thanks to [elliotttate](https://github.com/elliotttate) for the pic!)
 
 ### Reorganised Toolbars
 
 Downloads
 
-![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/DownloadsToolbar.JPG?)
+![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/DownloadsToolbar.JPG?)
 
 Linkgrabber
 
-![Sorry, this image cant be viewed :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/LinkgrabberToolbar.JPG?)
-##
+![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/LinkgrabberToolbar.JPG?)
 
+### Custom Stuff
 
+Green Progressbar
 
+![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/GreenProgressBar.JPG?)
