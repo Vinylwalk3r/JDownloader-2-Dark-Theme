@@ -61,7 +61,7 @@ Settings page
 
 ### Mac
 
-![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/Jdownloader-2-Dark-Theme/blob/master/images/OSXDownload.PNG?)
+![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/blob/master/images/OSXDownload.png)
 (Thanks to [elliotttate](https://github.com/elliotttate) for the pic!)
 
 ### Reorganised Toolbars
