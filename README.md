@@ -41,7 +41,7 @@ Strange thing I found, if a pasted a new theme.jar file here, with its own name,
 - [Main Dark theme conf](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf)
 - [Reorganized Toolbars](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/menus_v2)
 - [Green Download Progress bar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(progressbar))
-- (soon to be released) "Flat" style buttons
+- (soon to be released) "Flat and Unglossy" style buttons (currently: Beta branch)
 
 ## Gallery:
 
