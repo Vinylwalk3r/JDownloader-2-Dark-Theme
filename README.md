@@ -61,11 +61,10 @@ Settings page
 
 ### Mac
 
+(Thanks to [elliotttate](https://github.com/elliotttate) for this part!)
 ![Must have taken a wrong turn :/ ](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/blob/master/images/OSXDownload.png)
 To get the top bar to show up with the dark theme, you'll also need to run this in terminal: 
 ``defaults write org.jdownloader.launcher NSRequiresAquaSystemAppearance 0``
-
-(Thanks to [elliotttate](https://github.com/elliotttate)!)
 
 ### Reorganised Toolbars
 
