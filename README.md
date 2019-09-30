@@ -21,7 +21,7 @@ This method will keep your current settings and add dark theme ontop
 4. Go to `File -> Backup -> Backup all settings` and make a backup of your JDownloader settings.
 5. Make a copy of the backup, because we are going to modify it in the next step.
 6. Open the backup with the zip archiver of your choice (e.g. [7-Zip](https://www.7-zip.org/)).
-7. Copy the content of the [config](config/) folder into the opened backup. If asked, confirm overwriting exisiting files. ([laf](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf) is the dark theme, [menus_v2](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/menus_v2) is the toolbars) 
+7. Copy the content of the [config](config/) folder into the opened backup. If asked, confirm overwriting exisiting files. ([laf](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf) is the dark theme, [menus_v2](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/menus_v2) are the toolbars, [images](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/themes/standard/org/jdownloader/images/) are the white icons) 
 8. Save the modified backup, if your archiver does not to that automatically.
 9. Go to `File -> Backup -> Restore Settings` and choose the modified backup.
 10. JD2 will restart now.
@@ -35,13 +35,13 @@ If you want a custom theme (our edited BlackEye for example)
 3. Paste our edited [syntheticaBlackEye.jar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/syntheticaBlackEye.jar) here
 4. Restart JD2
 
-Strange thing I found, if a pasted a new theme.jar file here, with its own name, JD2 could not find it in its list of themes. Anybody know where the file containing the theme list is?
+Strange thing I found, if I pasted a new theme.jar file here, with its own name, JD2 could not find it in its list of themes. Anybody know where the file containing the theme list is?
 
 ## Assets_List
 - [Main Dark theme conf](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf)
 - [Reorganized Toolbars](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/menus_v2)
 - [Green Download Progress bar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(progressbar))
-- (soon to be released) "Flat and Unglossy" style buttons (currently: Beta branch)
+- [Flat and Unglossy Buttons](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(flatbutton))
 
 ## Gallery:
 
