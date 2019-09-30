@@ -38,7 +38,7 @@ If you want a custom theme (our edited BlackEye for example)
 Strange thing I found, if I pasted a new theme.jar file here, with its own name, JD2 could not find it in its list of themes. Anybody know where the file containing the theme list is?
 
 ## Assets_List
-- [Main Dark theme conf](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf)
+- [Main Dark Theme](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf)
 - [Reorganized Toolbars](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/menus_v2)
 - [Green Download Progress bar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(progressbar))
 - [Flat and Unglossy Buttons](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(flatbutton))
