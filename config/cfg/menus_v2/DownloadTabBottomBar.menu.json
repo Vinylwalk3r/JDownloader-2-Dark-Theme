@@ -1,0 +1,274 @@
+{
+  "items" : [ {
+    "items" : [ {
+      "items" : [ ],
+      "name" : "Add New Links",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "clazzName" : "org.jdownloader.gui.views.linkgrabber.actions.AddLinksAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    }, {
+      "items" : [ ],
+      "name" : "Analyse Text with Links",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "name" : "Analyse Text with Links",
+  "clazzName" : "org.jdownloader.gui.views.linkgrabber.actions.AddLinksAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    }, {
+      "items" : [ ],
+      "name" : "Load Linkcontainer",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "clazzName" : "org.jdownloader.gui.views.linkgrabber.actions.AddContainerAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    } ],
+    "name" : "Add Links",
+    "iconKey" : "add",
+    "className" : "org.jdownloader.controlling.contextmenu.MenuContainer",
+    "actionData" : { },
+    "type" : "CONTAINER",
+    "mnemonic" : null,
+    "shortcut" : null,
+    "visible" : true
+  }, {
+    "items" : [ {
+      "items" : [ ],
+      "name" : "Add & Analyse Links from your Clipboard",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "setup" : {
+    "DEEPDECRYPTENABLED" : false
+  },
+  "clazzName" : "org.jdownloader.gui.views.linkgrabber.bottombar.PasteLinksAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    }, {
+      "items" : [ ],
+      "name" : "Add & DeepAnalyse Links from your Clipboard",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "setup" : {
+    "DEEPDECRYPTENABLED" : true
+  },
+  "clazzName" : "org.jdownloader.gui.views.linkgrabber.bottombar.PasteLinksAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    } ],
+    "name" : "Analyze",
+    "iconKey" : "clipboard",
+    "className" : "org.jdownloader.controlling.contextmenu.MenuContainer",
+    "actionData" : { },
+    "type" : "CONTAINER",
+    "mnemonic" : null,
+    "shortcut" : null,
+    "visible" : true
+  }, {
+    "items" : [ {
+      "items" : [ ],
+      "name" : "Max. simultaneous Downloads",
+      "iconKey" : "paralell",
+      "className" : "org.jdownloader.gui.mainmenu.ParalellDownloadsEditorLink",
+      "actionData" : { },
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    }, {
+      "items" : [ ],
+      "name" : "Max. sim. Downloads per Hoster",
+      "iconKey" : "batch",
+      "className" : "org.jdownloader.gui.mainmenu.ParallelDownloadsPerHostEditorLink",
+      "actionData" : { },
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    }, {
+      "items" : [ ],
+      "name" : "Max. Chunks per Download",
+      "iconKey" : "chunks",
+      "className" : "org.jdownloader.gui.mainmenu.ChunksEditorLink",
+      "actionData" : { },
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    } ],
+    "name" : "Download Settings",
+    "iconKey" : "paralell",
+    "className" : "org.jdownloader.controlling.contextmenu.MenuContainer",
+    "actionData" : { },
+    "type" : "CONTAINER",
+    "mnemonic" : null,
+    "shortcut" : null,
+    "visible" : true
+  }, {
+    "items" : [ {
+      "items" : [ ],
+      "name" : "Delete Links: finished",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "setup" : {
+    "DELETEFINISHED" : true,
+    "DELETEMODE" : "REMOVE_LINKS_ONLY"
+  },
+  "iconKey" : "remove_ok",
+  "clazzName" : "org.jdownloader.gui.views.downloads.action.GenericDeleteFromDownloadlistAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    }, {
+      "items" : [ ],
+      "name" : "Delete Links: offline",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "setup" : {
+    "DELETEMODE" : "REMOVE_LINKS_ONLY",
+    "DELETEOFFLINE" : true
+  },
+  "iconKey" : "remove_offline",
+  "clazzName" : "org.jdownloader.gui.views.downloads.action.GenericDeleteFromDownloadlistAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    }, {
+      "items" : [ ],
+      "name" : "Delete Links: disabled",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "setup" : {
+    "DELETEDISABLED" : true,
+    "DELETEMODE" : "REMOVE_LINKS_ONLY"
+  },
+  "iconKey" : "remove_disabled",
+  "clazzName" : "org.jdownloader.gui.views.downloads.action.GenericDeleteFromDownloadlistAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    }, {
+      "items" : [ ],
+      "name" : "Delete Links: failed",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "setup" : {
+    "DELETEFAILED" : true,
+    "DELETEMODE" : "REMOVE_LINKS_ONLY"
+  },
+  "iconKey" : "remove_failed",
+  "clazzName" : "org.jdownloader.gui.views.downloads.action.GenericDeleteFromDownloadlistAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    } ],
+    "name" : "Delete Links",
+    "iconKey" : "error",
+    "className" : "org.jdownloader.controlling.contextmenu.MenuContainer",
+    "actionData" : { },
+    "type" : "CONTAINER",
+    "mnemonic" : null,
+    "shortcut" : null,
+    "visible" : true
+  }, {
+    "items" : [ {
+      "items" : [ ],
+      "name" : "Overview Panel visible",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "clazzName" : "org.jdownloader.gui.views.downloads.bottombar.DownloadsOverviewPanelToggleAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    }, {
+      "items" : [ ],
+      "name" : "Package or Link Properties",
+      "iconKey" : null,
+      "className" : null,
+      "actionData" : {
+  "clazzName" : "org.jdownloader.gui.views.downloads.DownloadsPropertiesToggleAction"
+},
+      "type" : "ACTION",
+      "mnemonic" : null,
+      "shortcut" : null,
+      "visible" : true
+    } ],
+    "name" : "Panels",
+    "iconKey" : "bottombar",
+    "className" : "org.jdownloader.controlling.contextmenu.MenuContainer",
+    "actionData" : { },
+    "type" : "CONTAINER",
+    "mnemonic" : null,
+    "shortcut" : null,
+    "visible" : true
+  }, {
+    "items" : [ ],
+    "name" : "Auto Confirm Button",
+    "iconKey" : null,
+    "className" : null,
+    "actionData" : {
+  "clazzName" : "org.jdownloader.gui.views.linkgrabber.bottombar.AutoConfirmStopAction"
+},
+    "type" : "ACTION",
+    "mnemonic" : null,
+    "shortcut" : null,
+    "visible" : true
+  }, {
+    "items" : [ ],
+    "name" : "Customize this Bottom Panel",
+    "iconKey" : "edit",
+    "className" : null,
+    "actionData" : {
+  "clazzName" : "org.jdownloader.gui.views.downloads.bottombar.BottomBarMenuManagerAction"
+},
+    "type" : "ACTION",
+    "mnemonic" : null,
+    "shortcut" : null,
+    "visible" : true
+  } ],
+  "name" : null,
+  "iconKey" : null,
+  "className" : "org.jdownloader.controlling.contextmenu.MenuContainerRoot",
+  "actionData" : { },
+  "type" : "CONTAINER",
+  "mnemonic" : null,
+  "shortcut" : null,
+  "visible" : true
+}
