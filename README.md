@@ -1,3 +1,4 @@
+# TL:DR Im not working on this project anymore, if you wanna take over it, go right ahead. Just give credit and link to this repo. Thanks ^^
 First off, I just wanna say THANK YOU all! I never expected the appreciation this little project of mine has gotten. Seeing so many enjoy it and express thanks for it, it's been awesome and very unexpected. That said, however....
 ...Because things happening in my life (and a subsecvent loss of interest in the project), I am looking for someone to take over and improve further on my theme. My focus and energy is needed elsewhere, thats sadly how IRL works :/  That's why I've been and mostly is inactive on Github. So if someone wants to get their hands dirty with this theme, go right ahead. I just ask that a link to this github and credits are given. Thats all for now folks
 
