@@ -11,6 +11,9 @@ I have not found anywhere it looks strange or where you cant read the text. **Ed
 I hope someone finds good use for it :)
 
 - [Installing](#installing)
+   - [The Dark Theme](#dark-theme)
+   - [Adding Green Progress Bar](#adding-green-progress-bars--flat-buttons)
+- [Notes and Oddities](#notes-and-oddities)
 - [Assets List](#assets_list)
 - [Gallery](#gallery)
 
@@ -29,17 +32,24 @@ This method will keep your current settings and add dark theme ontop
 8. Save the modified backup, if your archiver does not to that automatically.
 9. Go to `File -> Backup -> Restore Settings` and choose the modified backup.
 10. JD2 will restart now.
+If your running Mac OSX and want the top bar to follow the dark theme, run this command in a terminal:
+```defaults write org.jdownloader.launcher NSRequiresAquaSystemAppearance 0``` (Thanks @elliotttate for supplying the command!)
 
 Now you got a Dark theme for JD2!
 
-### Custom Themes
-If you want a custom theme (our edited BlackEye for example)
+### Adding Green Progress Bars & Flat Buttons
+This will require us to dig a little deeper.
 1. Go to `pathtoyourjdownloaderinstall\libs\laf`
 2. In this example, we rename `syntheticaBlackEye.jar` to `syntheticaBlackEye.jar.bak` (you could edit any theme you want, but you have to use the exact name of the theme you replace. This time, I edited the Blackeye)
-3. Paste our edited [syntheticaBlackEye.jar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/syntheticaBlackEye.jar) here or make a copy of our backup and edit it to your liking. Just remeber to remove the .bak extension from your edited copy!
-4. Restart JD2
+3. Using 7zip or any other archive editing tool, open the .jar and navigate to `\de\javasoft\plaf\synthetica\blackeye\images`
+4. Paste the images from [green progress bar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(progressbar)) and / or [flatbuttons](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(flatbutton)) here and overwrite any existing images.
 
-Strange thing I found, if I pasted a new theme.jar file here, with its own name, JD2 could not find it in its list of themes. Anybody know where the file containing the theme list is?
+## Notes and Oddities
+* I've found the images used (and imo, OVERUSED) by JDownloader 2 to be either in the theme .jar file or in the directory `.\themes\standard\org\jdownloader\images`. 
+
+* Strange thing I found, if I pasted a new theme.jar file here, with its own name, JD2 could not find it in its list of themes. Anybody know where the file containing the theme list is?
+
+
 
 ## Assets_List
 - [Main Dark Theme](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf)
