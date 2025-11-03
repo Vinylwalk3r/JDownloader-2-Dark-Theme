@@ -40,9 +40,15 @@ Now you got a Dark theme for JD2!
 ### Adding Green Progress Bars & Flat Buttons
 This will require us to dig a little deeper.
 1. Go to `pathtoyourjdownloaderinstall\libs\laf`
-2. In this example, we rename `syntheticaBlackEye.jar` to `syntheticaBlackEye.jar.bak` (you could edit any theme you want, but you have to use the exact name of the theme you replace. This time, I edited the Blackeye)
-3. Using 7zip or any other archive editing tool, open the .jar and navigate to `\de\javasoft\plaf\synthetica\blackeye\images`
-4. Paste the images from [green progress bar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(progressbar)) and / or [flatbuttons](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(flatbutton)) here and overwrite any existing images.
+2. Make a copy of `syntheticaBlackEye.jar` and paste in the same directory
+3. In this example, we rename `syntheticaBlackEye.jar` to `syntheticaBlackEye.jar.bak` (you could edit any theme you want, but you have to use the exact name of the theme you replace. This time, I edited the Blackeye)
+4. Download and edit the [progressbar images](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(progressbar))  to your liking. (If you want an animation, edit them individually, each image is one frame of the animation. If you only want a solid color or still image, just edit one image and then make copies and rename them accordingly so JD2 can show them)
+5. Now open our .jar file with a program like WinRAR or 7Zip. NOT THE BACKUP .JAR!!!
+6. Navigate in the file to `/de/javasoft/plaf/synthetica/blackeye/images/`
+7. Paste our edited progressbar images here. Overwrite the once already there. NOTE, if you also want to add the [flatbuttons](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(flatbutton)), this is where you paste them as well!
+8. Close 7Zip and restart JD2
+
+Your Done! Well done, have a cookie ^^
 
 ## Notes and Oddities
 * I've found the images used (and imo, OVERUSED) by JDownloader 2 to be either in the theme .jar file or in the directory `.\themes\standard\org\jdownloader\images`. 
