@@ -8,7 +8,7 @@ I hope someone finds good use for it :)
 
 - [Installing](#installing)
    - [The Dark Theme](#dark-theme)
-   - [Adding Green Progress Bar](#adding-custom-assets)
+   - [Adding Custom Assets](#adding-custom-assets)
 - [Notes and Oddities](#notes-and-oddities)
 - [Assets List](#assets_list)
 - [Gallery](#gallery)
@@ -24,15 +24,16 @@ This method will keep your current settings and add dark theme ontop
 4. Go to `File -> Backup -> Backup all settings` and make a backup of your JDownloader settings.
 5. Make a copy of the backup, because we are going to modify it in the next step.
 6. Open the backup with the zip archiver of your choice (e.g. [7-Zip](https://www.7-zip.org/)).
-7. Copy the content of the [config](config/) folder into the opened backup. If asked, confirm overwriting exisiting files. ([laf](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf) is the dark theme, [menus_v2](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/menus_v2) are the toolbars, [images](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/themes/standard/org/jdownloader/images/) are the white icons) 
+7. Copy the content of the [config](config/) folder into the opened backup. If asked, confirm overwriting exisiting files. ([laf](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf) is the dark theme, [menus_v2](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/menus_v2) are the toolbars (THESE WILL CHANGE THE BOTTOM TOOLBARS, See [Issue #26](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/issues/26)), [images](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/themes/standard/org/jdownloader/images/) are the white icons) 
 8. Save the modified backup, if your archiver does not to that automatically.
 9. Go to `File -> Backup -> Restore Settings` and choose the modified backup.
 10. JD2 will restart now.
 
->! If your running Mac OSX and want the top bar to follow the dark theme, run this command in a terminal:
+> If your running Mac OSX and want the top bar to follow the dark theme, run this command in a terminal:
 ```defaults write org.jdownloader.launcher NSRequiresAquaSystemAppearance 0``` (Thanks @elliotttate for supplying the command!)
 
 Thanks to @L0sha for figuring out this next step!
+
 11. You will notice that every other row is hard to read, as said in [issue #16](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/issues/16). To fix this, we need to replace the file [org.jdownloader.settings.GraphicalUserInterfaceSettings.json](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json) in "./cfg". 
 If you don't want to replace your Settings.json file, find and change this line in that file and you've fixed it `"packagesbackgroundhighlightenabled": false,`. Or, if you want to go the GUI route, go into `Settings -> Settings` and  then `Advanced` and search for `Background`. Look for the setting `GraphicalUserInterfaceSettings: Packages Background Highlight` and untick that box. Then restart JD2.
 
