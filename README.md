@@ -34,8 +34,15 @@ This method will keep your current settings and add dark theme ontop
 
 Thanks to @L0sha for figuring out this next step!
 
-11. You will notice that every other row is hard to read, as said in [issue #16](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/issues/16). To fix this, we need to replace the file [org.jdownloader.settings.GraphicalUserInterfaceSettings.json](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json) in "./cfg". 
-If you don't want to replace your Settings.json file, find and change this line in that file and you've fixed it `"packagesbackgroundhighlightenabled": false,`. Or, if you want to go the GUI route, go into `Settings -> Settings` and  then `Advanced` and search for `Background`. Look for the setting `GraphicalUserInterfaceSettings: Packages Background Highlight` and untick that box. Then restart JD2.
+11. You will notice that every other row is hard to read, as said in [issue #16](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/issues/16). 
+To fix this, we need to replace the file [org.jdownloader.settings.GraphicalUserInterfaceSettings.json](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json) in "./cfg". 
+If you don't want to replace your Settings.json file, find and change this line to "false" and you've fixed it `"packagesbackgroundhighlightenabled": true,`. 
+Or, if you want to go the GUI route, go into `Settings -> Settings` and  then `Advanced` and search for `Background`. Look for the setting `GraphicalUserInterfaceSettings: Packages Background Highlight` and untick that box. Then restart JD2.
+
+12. The tray tool tip is completly broken when using this dark theme. I have not managed to fix this and so decided to disable it altogether. This is done as such:
+In ./cfg, replace the file [org.jdownloader.gui.jdtrayicon.TrayExtension.json](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/org.jdownloader.gui.jdtrayicon.TrayExtension.json) and your done.
+If you wish to edit the file yourself instead, open it in your editor and locate the line `"tooltipenabled": true,` (for me, it was on line 4) and set it to "false". Then restart JD2.
+Or, going GUI, go to `Settings -> Settings` and then `Advanced` and search for `Tray Tool`. Then untick the `Tray: Tool Tip` checkbox and restart JD2.
 
 Now you got a Dark theme for JD2!
 
@@ -50,6 +57,7 @@ This will require us to dig a little deeper.
 7. Paste our edited progressbar images here. Overwrite the once already there. 
 
 7.1. This is also where you can paste the [flatbuttons](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(flatbutton))
+
 7.2 If you don't like the blue outline JD2 uses to show the focused section, paste the [focusbutton](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(focusbutton)) to get a nice dark outline instead.
 
 8. Close 7Zip and restart JD2
