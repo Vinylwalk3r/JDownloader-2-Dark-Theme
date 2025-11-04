@@ -1,7 +1,3 @@
-## TL:DR Im not working on this project anymore, if you wanna take over it, go right ahead. Just give credit and link to this repo. Thanks ^^
-First off, I just wanna say THANK YOU all! I never expected the appreciation this little project of mine has gotten. Seeing so many enjoy it and express thanks for it, it's been awesome and very unexpected. That said, however....
-...Because things happening in my life (and a subsecvent loss of interest in the project), I am looking for someone to take over and improve further on my theme. My focus and energy is needed elsewhere, thats sadly how IRL works :/  That's why I've been and mostly is inactive on Github. So if someone wants to get their hands dirty with this theme, go right ahead. I just ask that a link to this github and credits are given. Thats all for now folks
-
 # JDownloader 2 Dark Theme
 After seeing so many requests for a dark theme, I configured my own. 
 It uses the "Black Eye" UserInterfaceSetting and a matching colorscheme I configured for the rest of the window.
@@ -12,7 +8,7 @@ I hope someone finds good use for it :)
 
 - [Installing](#installing)
    - [The Dark Theme](#dark-theme)
-   - [Adding Green Progress Bar](#adding-green-progress-bars--flat-buttons)
+   - [Adding Green Progress Bar](#adding-custom-assets)
 - [Notes and Oddities](#notes-and-oddities)
 - [Assets List](#assets_list)
 - [Gallery](#gallery)
@@ -32,30 +28,39 @@ This method will keep your current settings and add dark theme ontop
 8. Save the modified backup, if your archiver does not to that automatically.
 9. Go to `File -> Backup -> Restore Settings` and choose the modified backup.
 10. JD2 will restart now.
-If your running Mac OSX and want the top bar to follow the dark theme, run this command in a terminal:
+
+>! If your running Mac OSX and want the top bar to follow the dark theme, run this command in a terminal:
 ```defaults write org.jdownloader.launcher NSRequiresAquaSystemAppearance 0``` (Thanks @elliotttate for supplying the command!)
+
+Thanks to @L0sha for figuring out this next step!
+11. You will notice that every other row is hard to read, as said in [issue #16](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/issues/16). To fix this, we need to replace the file [org.jdownloader.settings.GraphicalUserInterfaceSettings.json](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json) in "./cfg". 
+If you don't want to replace your Settings.json file, find and change this line in that file and you've fixed it `"packagesbackgroundhighlightenabled": false,`. Or, if you want to go the GUI route, go into `Settings -> Settings` and  then `Advanced` and search for `Background`. Look for the setting `GraphicalUserInterfaceSettings: Packages Background Highlight` and untick that box. Then restart JD2.
 
 Now you got a Dark theme for JD2!
 
-### Adding Green Progress Bars & Flat Buttons
+### Adding Custom Assets
 This will require us to dig a little deeper.
 1. Go to `pathtoyourjdownloaderinstall\libs\laf`
 2. Make a copy of `syntheticaBlackEye.jar` and paste in the same directory
 3. In this example, we rename `syntheticaBlackEye.jar` to `syntheticaBlackEye.jar.bak` (you could edit any theme you want, but you have to use the exact name of the theme you replace. This time, I edited the Blackeye)
-4. Download and edit the [progressbar images](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(progressbar))  to your liking. (If you want an animation, edit them individually, each image is one frame of the animation. If you only want a solid color or still image, just edit one image and then make copies and rename them accordingly so JD2 can show them)
+4. Choose which version of the [progressbar images](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(progressbar)) you wish to use. (If you want an animation, edit them individually, each image is one frame of the animation. If you only want a solid color or still image, just edit one image and then make copies and rename them accordingly so JD2 can show them)
 5. Now open our .jar file with a program like WinRAR or 7Zip. NOT THE BACKUP .JAR!!!
 6. Navigate in the file to `/de/javasoft/plaf/synthetica/blackeye/images/`
-7. Paste our edited progressbar images here. Overwrite the once already there. NOTE, if you also want to add the [flatbuttons](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(flatbutton)), this is where you paste them as well!
+7. Paste our edited progressbar images here. Overwrite the once already there. 
+
+7.1. This is also where you can paste the [flatbuttons](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(flatbutton))
+7.2 If you don't like the blue outline JD2 uses to show the focused section, paste the [focusbutton](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(focusbutton)) to get a nice dark outline instead.
+
 8. Close 7Zip and restart JD2
 
 Your Done! Well done, have a cookie ^^
+Many thanks to @Bims0n for creating both the dark and green animated progress bars and also the dark outlines!
+
 
 ## Notes and Oddities
 * I've found the images used (and imo, OVERUSED) by JDownloader 2 to be either in the theme .jar file or in the directory `.\themes\standard\org\jdownloader\images`. 
 
 * Strange thing I found, if I pasted a new theme.jar file here, with its own name, JD2 could not find it in its list of themes. Anybody know where the file containing the theme list is?
-
-
 
 ## Assets_List
 - [Main Dark Theme](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf)
