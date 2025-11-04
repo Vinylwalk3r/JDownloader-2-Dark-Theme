@@ -10,7 +10,7 @@
   "colorfortablemouseoverrowforeground" : null,
   "colorforscrollbarsmouseoverstate" : "ffABC7D8",
   "configlabeldisabledtextcolor" : "FFA0A0A0",
-  "paintstatusbartopborder" : false,
+  "paintstatusbartopborder" : true,
   "colorforpanelbackground" : "ffF5FCFF",
   "colorforspeedmeterlimitertop" : "ccFF0000",
   "colorfortablesortedcolumnview" : "ffFFC800",
