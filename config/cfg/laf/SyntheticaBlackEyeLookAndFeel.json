@@ -14,5 +14,6 @@
   "colorfortablealternaterowbackground" : "#ff333333",
   "colorforpanelheaderbackground" : "#ff666666",
   "colorforspeedmeterlimiterbottom" : "#ffffffff",
-  "colorforpanelheaderforeground" : "#ff999999"
+  "colorforpanelheaderforeground" : "#ff999999",
+  "windowdecorationenabled" : true
 }
