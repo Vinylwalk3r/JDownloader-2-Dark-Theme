@@ -28,18 +28,20 @@ This method will keep your current settings and add dark theme ontop
 8. Save the modified backup, if your archiver does not to that automatically.
 9. Go to `File -> Backup -> Restore Settings` and choose the modified backup.
 10. JD2 will restart now.
+11. To make the top bar follow the dark theme on Windows, close JD2 and go to `%localappdata%\JDownloader 2\libs\laf`.
+Make a backup of the existing `syntheticaBlackEye.jar`, then replace it with the [syntheticaBlackEye.jar](libs/laf/syntheticaBlackEye.jar) from this repository. The dark theme config enables Window Decoration, and this patched jar includes a darkened root pane border so JD2 does not show a bright outline around the window.
 
 > If your running Mac OSX and want the top bar to follow the dark theme, run this command in a terminal:
 ```defaults write org.jdownloader.launcher NSRequiresAquaSystemAppearance 0``` (Thanks @elliotttate for supplying the command!)
 
 Thanks to @L0sha for figuring out this next step!
 
-11. You will notice that every other row is hard to read, as said in [issue #16](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/issues/16). 
+12. You will notice that every other row is hard to read, as said in [issue #16](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/issues/16). 
 To fix this, we need to replace the file [org.jdownloader.settings.GraphicalUserInterfaceSettings.json](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json) in "./cfg". 
 If you don't want to replace your Settings.json file, find and change this line to "false" and you've fixed it `"packagesbackgroundhighlightenabled": true,`. 
 Or, if you want to go the GUI route, go into `Settings -> Settings` and  then `Advanced` and search for `Background`. Look for the setting `GraphicalUserInterfaceSettings: Packages Background Highlight` and untick that box. Then restart JD2.
 
-12. The tray tool tip is completly broken when using this dark theme. I have not managed to fix this and so decided to disable it altogether. This is done as such:
+13. The tray tool tip is completly broken when using this dark theme. I have not managed to fix this and so decided to disable it altogether. This is done as such:
 In ./cfg, replace the file [org.jdownloader.gui.jdtrayicon.TrayExtension.json](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/org.jdownloader.gui.jdtrayicon.TrayExtension.json) and your done.
 If you wish to edit the file yourself instead, open it in your editor and locate the line `"tooltipenabled": true,` (for me, it was on line 4) and set it to "false". Then restart JD2.
 Or, going GUI, go to `Settings -> Settings` and then `Advanced` and search for `Tray Tool`. Then untick the `Tray: Tool Tip` checkbox and restart JD2.
@@ -73,6 +75,7 @@ Many thanks to @Bims0n for creating both the dark and green animated progress ba
 
 ## Assets_List
 - [Main Dark Theme](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/laf)
+- [Patched Synthetica Black Eye jar](libs/laf/syntheticaBlackEye.jar)
 - [Reorganized Toolbars](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/config/cfg/menus_v2)
 - [Green Download Progress bar](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(progressbar))
 - [Flat and Unglossy Buttons](https://github.com/Vinylwalk3r/JDownloader-2-Dark-Theme/tree/master/themeNameHere.jar/de/javasoft/plaf/synthetica/blackeye/images/(flatbutton))
