@@ -29,7 +29,7 @@ This method will keep your current settings and add dark theme ontop
 9. Go to `File -> Backup -> Restore Settings` and choose the modified backup.
 10. JD2 will restart now.
 11. To make the top bar follow the dark theme on Windows, close JD2 and go to `%localappdata%\JDownloader 2\libs\laf`.
-Make a backup of the existing `syntheticaBlackEye.jar`, then replace it with the [syntheticaBlackEye.jar](libs/laf/syntheticaBlackEye.jar) from this repository. The dark theme config enables Window Decoration, and this patched jar includes a darkened root pane border so JD2 does not show a bright outline around the window.
+Make a backup of the existing `syntheticaBlackEye.jar`, then replace it with the [syntheticaBlackEye.jar](libs/laf/syntheticaBlackEye.jar) from this repository.
 
 > If your running Mac OSX and want the top bar to follow the dark theme, run this command in a terminal:
 ```defaults write org.jdownloader.launcher NSRequiresAquaSystemAppearance 0``` (Thanks @elliotttate for supplying the command!)
